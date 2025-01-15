@@ -8,5 +8,6 @@
       name:
         - "{{ apache_package }}"
         - "{{ php_package }}"
+      allow_downgrade: true
       state: latest
       update_cache: yes
